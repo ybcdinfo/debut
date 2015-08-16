@@ -20,7 +20,7 @@ class Fen1Bouton extends JFrame implements ActionListener{
 		monBouton2.addActionListener(this);
 	}
 	
-	private JButton monBouton1,monBouton2;
+	private JButton monBouton1,monBouton2; // 2 boutons
 
 	public void actionPerformed(ActionEvent ev){
 		String nom=ev.getActionCommand();
